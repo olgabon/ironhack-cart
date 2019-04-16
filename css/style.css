@@ -1,0 +1,57 @@
+body {
+  margin: 50px;
+}
+
+input {
+  border: solid 1px black;
+}
+
+.cart-element {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+#btn-calculate-price {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    border-style: none;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+
+.btn-delete {
+    color: #fff;
+    background-color: #CF000F;
+    border-color: #CF000F;
+    border-style: none;
+  width: 100px;
+}
+
+.quantity {
+  margin: 0 5px;
+}
+
+#createBtn {
+  margin-left: 30px;
+}
